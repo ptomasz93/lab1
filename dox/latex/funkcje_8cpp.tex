@@ -1,0 +1,143 @@
+\hypertarget{funkcje_8cpp}{\section{\-Dokumentacja pliku funkcje.\-cpp}
+\label{funkcje_8cpp}\index{funkcje.\-cpp@{funkcje.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}funkcje.\-hh\char`\"{}}\*
+\-Wykres zależności załączania dla funkcje.\-cpp\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{funkcje_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{funkcje_8cpp_ab80d311fc13e71453f3080482634447e}{otworz} (char $\ast$nazwa, fstream \&plik)
+\item 
+void \hyperlink{funkcje_8cpp_a7eac0a79b677c308c775f4f01aac9a6c}{kopiuj} (vector$<$ int $>$ \&wejsciowe, fstream \&plik, int rozmiar)
+\begin{DoxyCompactList}\small\item\em kopiuje dane z pliku do wektora \end{DoxyCompactList}\item 
+double \hyperlink{funkcje_8cpp_ad9ebe61e239dee170b242bda4db9ea63}{obliczenia} (const vector$<$ int $>$ \&wejsciowe, int $\ast$wyjsciowe, int powt)
+\begin{DoxyCompactList}\small\item\em implementacja pomiatu czasu oraz algorytmu mnozenia \end{DoxyCompactList}\item 
+void \hyperlink{funkcje_8cpp_aaa6c62fc60fb1173b904269379d69754}{zapisz} (int $\ast$tablica, fstream \&plik, int rozmiar)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Dokumentacja funkcji}
+\hypertarget{funkcje_8cpp_a7eac0a79b677c308c775f4f01aac9a6c}{\index{funkcje.\-cpp@{funkcje.\-cpp}!kopiuj@{kopiuj}}
+\index{kopiuj@{kopiuj}!funkcje.cpp@{funkcje.\-cpp}}
+\subsubsection[{kopiuj}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf kopiuj} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ int $>$ \&}]{wejsciowe, }
+\item[{fstream \&}]{plik, }
+\item[{int}]{rozmiar}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8cpp_a7eac0a79b677c308c775f4f01aac9a6c}
+\-Funkcja pobiera wiersz danych z strumienia wejsciwego i zapisuje go w postaci zmiennej int do wektora 
+\begin{DoxyParams}{\-Parametry}
+{\em wejsciowe} & referencja wekstora przechowywujacego dane wejsciowe \\
+\hline
+{\em plik} & strumien wejscia zachaczony na pliku z danymi wejsciowymi \\
+\hline
+{\em rozmiar} & ilosc danych do przekopiowania \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 27 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{funkcje_8cpp_a7eac0a79b677c308c775f4f01aac9a6c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8cpp_ad9ebe61e239dee170b242bda4db9ea63}{\index{funkcje.\-cpp@{funkcje.\-cpp}!obliczenia@{obliczenia}}
+\index{obliczenia@{obliczenia}!funkcje.cpp@{funkcje.\-cpp}}
+\subsubsection[{obliczenia}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf obliczenia} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ int $>$ \&}]{wejsciowe, }
+\item[{int $\ast$}]{wyjsciowe, }
+\item[{int}]{powt}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8cpp_ad9ebe61e239dee170b242bda4db9ea63}
+w fuknkcji zostaje zmierzona ilość taktów procesora potrzebnych na wykonanie
+
+zadanej ilości opercji mnożenia. \-Następnie ilość taktów zostaje podzielona przez
+
+stała \-P\-E\-R\-\_\-\-T\-O\-\_\-\-S\-E\-C 
+\begin{DoxyParams}{\-Parametry}
+{\em wejsciowe} & dane ktore przetworzy algorytm \\
+\hline
+{\em wyjsciowe} & tablica wynikow mnozenia \\
+\hline
+{\em powt} & liczba powtorzen algorytmu \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 47 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{funkcje_8cpp_ad9ebe61e239dee170b242bda4db9ea63_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8cpp_ab80d311fc13e71453f3080482634447e}{\index{funkcje.\-cpp@{funkcje.\-cpp}!otworz@{otworz}}
+\index{otworz@{otworz}!funkcje.cpp@{funkcje.\-cpp}}
+\subsubsection[{otworz}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf otworz} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa, }
+\item[{fstream \&}]{plik}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8cpp_ab80d311fc13e71453f3080482634447e}
+
+
+\-Definicja w linii 13 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{funkcje_8cpp_ab80d311fc13e71453f3080482634447e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8cpp_aaa6c62fc60fb1173b904269379d69754}{\index{funkcje.\-cpp@{funkcje.\-cpp}!zapisz@{zapisz}}
+\index{zapisz@{zapisz}!funkcje.cpp@{funkcje.\-cpp}}
+\subsubsection[{zapisz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf zapisz} (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{fstream \&}]{plik, }
+\item[{int}]{rozmiar}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8cpp_aaa6c62fc60fb1173b904269379d69754}
+
+
+\-Definicja w linii 75 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{funkcje_8cpp_aaa6c62fc60fb1173b904269379d69754_icgraph}
+\end{center}
+\end{figure}
+
+

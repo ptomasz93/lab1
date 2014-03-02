@@ -1,0 +1,23 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Indeks plik\IeC {\'o}w}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Lista plik\IeC {\'o}w}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Dokumentacja plik\IeC {\'o}w}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Dokumentacja pliku funkcje.\discretionary {-}{}{}cpp}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}\discretionary {-}{}{}Dokumentacja funkcji}{3}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}kopiuj}{4}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}obliczenia}{4}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.3}otworz}{4}{subsubsection.2.1.1.3}
+\contentsline {subsubsection}{\numberline {2.1.1.4}zapisz}{5}{subsubsection.2.1.1.4}
+\contentsline {section}{\numberline {2.2}\discretionary {-}{}{}Dokumentacja pliku funkcje.\discretionary {-}{}{}hh}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}\discretionary {-}{}{}Dokumentacja definicji}{6}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}\discretionary {-}{}{}C\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}E\discretionary {-}{}{}C}{6}{subsubsection.2.2.1.1}
+\contentsline {subsection}{\numberline {2.2.2}\discretionary {-}{}{}Dokumentacja funkcji}{6}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}kopiuj}{6}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}obliczenia}{6}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}otworz}{7}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}zapisz}{7}{subsubsection.2.2.2.4}
+\contentsline {section}{\numberline {2.3}\discretionary {-}{}{}Dokumentacja pliku main.\discretionary {-}{}{}cpp}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}\discretionary {-}{}{}Dokumentacja funkcji}{8}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}main}{8}{subsubsection.2.3.1.1}
+\contentsline {subsection}{\numberline {2.3.2}\discretionary {-}{}{}Dokumentacja zmiennych}{8}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}dane}{8}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}wynik}{8}{subsubsection.2.3.2.2}

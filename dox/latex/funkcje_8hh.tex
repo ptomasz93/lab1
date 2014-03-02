@@ -1,0 +1,168 @@
+\hypertarget{funkcje_8hh}{\section{\-Dokumentacja pliku funkcje.\-hh}
+\label{funkcje_8hh}\index{funkcje.\-hh@{funkcje.\-hh}}
+}
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$ctime$>$}\*
+\-Wykres zależności załączania dla funkcje.\-hh\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{funkcje_8hh__incl}
+\end{center}
+\end{figure}
+\-Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{funkcje_8hh__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Definicje}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{funkcje_8hh_a3d9fc3c745d0880902fe3ea3d5d5f71e}{\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C}~1000000
+\end{DoxyCompactItemize}
+\subsection*{\-Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{funkcje_8hh_aaa6c62fc60fb1173b904269379d69754}{zapisz} (int $\ast$tablica, fstream \&plik, int rozmiar)
+\item 
+double \hyperlink{funkcje_8hh_ad9ebe61e239dee170b242bda4db9ea63}{obliczenia} (const vector$<$ int $>$ \&wejsciowe, int $\ast$wyjsciowe, int powt)
+\begin{DoxyCompactList}\small\item\em implementacja pomiatu czasu oraz algorytmu mnozenia \end{DoxyCompactList}\item 
+bool \hyperlink{funkcje_8hh_ab80d311fc13e71453f3080482634447e}{otworz} (char $\ast$nazwa, fstream \&plik)
+\item 
+void \hyperlink{funkcje_8hh_a7eac0a79b677c308c775f4f01aac9a6c}{kopiuj} (vector$<$ int $>$ \&wejsciowe, fstream \&plik, int rozmiar)
+\begin{DoxyCompactList}\small\item\em kopiuje dane z pliku do wektora \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Dokumentacja definicji}
+\hypertarget{funkcje_8hh_a3d9fc3c745d0880902fe3ea3d5d5f71e}{\index{funkcje.\-hh@{funkcje.\-hh}!\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C@{\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C}}
+\index{\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C@{\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C}!funkcje.hh@{funkcje.\-hh}}
+\subsubsection[{\-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-C\-L\-O\-C\-K\-S\-\_\-\-P\-E\-R\-\_\-\-S\-E\-C}~1000000}}\label{funkcje_8hh_a3d9fc3c745d0880902fe3ea3d5d5f71e}
+
+
+\-Definicja w linii 14 pliku funkcje.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji}
+\hypertarget{funkcje_8hh_a7eac0a79b677c308c775f4f01aac9a6c}{\index{funkcje.\-hh@{funkcje.\-hh}!kopiuj@{kopiuj}}
+\index{kopiuj@{kopiuj}!funkcje.hh@{funkcje.\-hh}}
+\subsubsection[{kopiuj}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf kopiuj} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ int $>$ \&}]{wejsciowe, }
+\item[{fstream \&}]{plik, }
+\item[{int}]{rozmiar}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8hh_a7eac0a79b677c308c775f4f01aac9a6c}
+\-Funkcja pobiera wiersz danych z strumienia wejsciwego i zapisuje go w postaci zmiennej int do wektora 
+\begin{DoxyParams}{\-Parametry}
+{\em wejsciowe} & referencja wekstora przechowywujacego dane wejsciowe \\
+\hline
+{\em plik} & strumien wejscia zachaczony na pliku z danymi wejsciowymi \\
+\hline
+{\em rozmiar} & ilosc danych do przekopiowania \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 27 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{funkcje_8hh_a7eac0a79b677c308c775f4f01aac9a6c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8hh_ad9ebe61e239dee170b242bda4db9ea63}{\index{funkcje.\-hh@{funkcje.\-hh}!obliczenia@{obliczenia}}
+\index{obliczenia@{obliczenia}!funkcje.hh@{funkcje.\-hh}}
+\subsubsection[{obliczenia}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf obliczenia} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ int $>$ \&}]{wejsciowe, }
+\item[{int $\ast$}]{wyjsciowe, }
+\item[{int}]{powt}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8hh_ad9ebe61e239dee170b242bda4db9ea63}
+w fuknkcji zostaje zmierzona ilość taktów procesora potrzebnych na wykonanie
+
+zadanej ilości opercji mnożenia. \-Następnie ilość taktów zostaje podzielona przez
+
+stała \-P\-E\-R\-\_\-\-T\-O\-\_\-\-S\-E\-C 
+\begin{DoxyParams}{\-Parametry}
+{\em wejsciowe} & dane ktore przetworzy algorytm \\
+\hline
+{\em wyjsciowe} & tablica wynikow mnozenia \\
+\hline
+{\em powt} & liczba powtorzen algorytmu \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 47 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{funkcje_8hh_ad9ebe61e239dee170b242bda4db9ea63_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8hh_ab80d311fc13e71453f3080482634447e}{\index{funkcje.\-hh@{funkcje.\-hh}!otworz@{otworz}}
+\index{otworz@{otworz}!funkcje.hh@{funkcje.\-hh}}
+\subsubsection[{otworz}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf otworz} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa, }
+\item[{fstream \&}]{plik}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8hh_ab80d311fc13e71453f3080482634447e}
+
+
+\-Definicja w linii 13 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{funkcje_8hh_ab80d311fc13e71453f3080482634447e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funkcje_8hh_aaa6c62fc60fb1173b904269379d69754}{\index{funkcje.\-hh@{funkcje.\-hh}!zapisz@{zapisz}}
+\index{zapisz@{zapisz}!funkcje.hh@{funkcje.\-hh}}
+\subsubsection[{zapisz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf zapisz} (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{fstream \&}]{plik, }
+\item[{int}]{rozmiar}
+\end{DoxyParamCaption}
+)}}\label{funkcje_8hh_aaa6c62fc60fb1173b904269379d69754}
+
+
+\-Definicja w linii 75 pliku funkcje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{funkcje_8hh_aaa6c62fc60fb1173b904269379d69754_icgraph}
+\end{center}
+\end{figure}
+
+
