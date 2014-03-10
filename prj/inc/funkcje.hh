@@ -17,6 +17,6 @@ using namespace std;
 void zapisz(int* tablica,fstream &plik, int rozmiar);
 double obliczenia(const vector <int> &wejsciowe,int* wyjsciowe,int powt);
 bool otworz(char* nazwa,fstream &plik);
-void kopiuj(vector <int> &wejsciowe, fstream &plik, int rozmiar);
+int kopiuj(vector <int> &wejsciowe, fstream &plik);
 
 #endif /* FUNKCJE_H_ */

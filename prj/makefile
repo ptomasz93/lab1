@@ -1,15 +1,22 @@
-czas_alg:obj/main.o obj/funkcje.o
-	g++  -Wall -o czas_alg obj/main.o obj/funkcje.o
+CPPFLAGS= -Wall -Iinc
+LDFLAGS=-Wall
 
-main.o: src/main.cpp inc/funkcje.hh
-	g++ -c -Wall -pedantic -g -Iinc -o obj/main.o src/main.cpp
+all: alg
 
-funkcje.o: inc/funkcje.hh src/funkcje.cpp
-	g++ -c -Wall -pedantic -g -Iinc -o obj/funkcje.o src/funkcje.cpp
+obj:
+	mkdir obj
 
+alg: obj/main.o obj/clasa.o obj/funkcje.o
+	g++ $(CPPFLAGS) obj/main.o obj/funkcje.o obj/clasa.o -o alg
 
+obj/main.o: src/main.cpp inc/funkcje.hh inc/clasa.hh
+	g++ $(CPPFLAGS) -c src/main.cpp -o obj/main.o
+	
+obj/funkcje.o: src/funkcje.cpp inc/funkcje.hh
+	g++ $(CPPFLAGS) -c src/funkcje.cpp -o obj/funkcje.o
+	
+obj/clasa.o: src/clasa.cpp inc/clasa.hh
+	g++ $(CPPFLAGS) -c src/clasa.cpp -o obj/clasa.o
 
-
-
-
-
+clean:
+	rm -rf alg obj/*

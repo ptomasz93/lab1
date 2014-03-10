@@ -27,17 +27,19 @@ bool otworz(char* nazwa,fstream &plik)
  * zmiennej int do wektora
  * \param wejsciowe referencja wekstora przechowywujacego dane wejsciowe
  * \param plik strumien wejscia zachaczony na pliku z danymi wejsciowymi
- * \param rozmiar ilosc danych do przekopiowania
+ * \return zwraca rozmiar tablic
  */
-void kopiuj(vector <int> &wejsciowe, fstream &plik, int rozmiar)
+int kopiuj(vector <int> &wejsciowe, fstream &plik)
 
 {
-int wiersz;
+int wiersz, rozmiar;
+plik>>rozmiar;
 for(int i=0;i<rozmiar;i++)
 	{
 	plik>>wiersz;
 	wejsciowe.push_back(wiersz);
 	}
+return rozmiar;
 }
 /**
  *\brief implementacja pomiatu czasu oraz algorytmu mnozenia
